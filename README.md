@@ -2,8 +2,8 @@
 
 ## Overview
 
-This repository showcases two foundational cybersecurity automation tasks, completed during my internship at LEARNCORP.  
-All work was performed solely for educational and learning purposes as part of my training.
+This repository showcases two foundational cybersecurity automation tasks.  
+All work was performed solely for educational and learning purposes as part of my Internship.
 
 ## Task 1: Security Audit Automation
 
