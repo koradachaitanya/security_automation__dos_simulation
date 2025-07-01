@@ -82,7 +82,11 @@ Run the script with the target URL, number of requests to send, and (optionally)
   - `requests`
   - `pyOpenSSL`
 
+Security Audit Automation: 
+python security_audit.py --target <TARGET_IP_ADDRDESS> --ports 22 80 443 8080 --output my_audit.md
 
+Ethical DoS Attack Simulation:
+python dos_simulation.py --target <TARGET_URL> 
 
 ## Disclaimer
 
