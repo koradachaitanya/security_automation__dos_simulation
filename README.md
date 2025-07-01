@@ -98,10 +98,10 @@ python dos_simulation.py --target <TARGET_URL>
 These projects gave me hands-on experience with Python for both automating security checks and understanding attack techniques—skills that are vital in today’s cybersecurity landscape.
 
 I completed these projects solely for educational and learning purposes, undertaking them exclusively as part of my educational training.  
-As this is the last week of my internship with LEARNCORP, I am grateful for the valuable experience and knowledge I have gained during this journey.
 
-Created by Korada Chaitanya  
-Intern, LEARNCORP
+## Created by 
+Korada Chaitanya  
+
 
 ## License:
 This project is for educational purposes only.
