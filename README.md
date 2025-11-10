@@ -1,11 +1,11 @@
-# Security Automation & Ethical DoS Simulation
+# Security Automation 
 
 ## Overview
 
-This repository showcases two foundational cybersecurity automation tasks.  
+This repository showcases the foundational cybersecurity automation task.  
 All work was performed solely for educational and learning purposes as part of my Internship.
 
-## Task 1: Security Audit Automation
+## Task : Security Audit Automation
 
 ### Description
 
@@ -34,33 +34,11 @@ Automates basic security auditing by:
 - **Accurate version detection:** Improved banner parsing for multiple services
 - **Report readability:** Used Markdown formatting for clarity
 
-## Task 2: Ethical DoS Attack Simulation
-
-### Description
-
-Simulates a Denial of Service (DoS) attack in a controlled, ethical environment to illustrate resource exhaustion and monitoring strategies.
-
-### How It Works
-
-- Uses the requests library to send a configurable number of HTTP requests to a specified test server
-- Includes a delay parameter to control the rate of requests and prevent accidental harm
-- Implements safety prompts and configuration checks to ensure ethical use in isolated environments
-
-### Features
-
-- Configurable request count and delay
-- Built-in safeguards and explicit user confirmation
-- Designed for test environments only
-
-### Challenges & Solutions
-
-- **Preventing misuse:** Added explicit user confirmation and rate limiting
-- **Testing safely:** Used only test servers and low request counts
 
 ## Key Learnings
 
 - Automation increases the speed and reliability of security assessments
-- Building both defensive (auditing) and offensive (DoS simulation) tools deepened my understanding of network security
+- Building both defensive (auditing) tool deepened my understanding of network security
 - Ethical boundaries and safeguards are essential when simulating attacks, even in a lab setting
 
 ### Usage
@@ -68,10 +46,6 @@ Simulates a Denial of Service (DoS) attack in a controlled, ethical environment 
 #### Security Audit Automation
 
 Run the script with your target IP address or domain and specify the ports you want to scan. You can also set the output file for the report.
-
-#### Ethical DoS Attack Simulation
-
-Run the script with the target URL, number of requests to send, and (optionally) the delay between requests.
 
 ## How to Run
 
@@ -85,19 +59,16 @@ Run the script with the target URL, number of requests to send, and (optionally)
 #### Security Audit Automation :
 python security_audit.py --target <TARGET_IP_ADDRDESS> --ports 22 80 443 8080 --output my_audit.md
 
-#### Ethical DoS Attack Simulation :
-python dos_simulation.py --target <TARGET_URL> 
-
 ## Disclaimer
 
-- Use these scripts only on systems you own or have explicit permission to test.
-- Unauthorized scanning or attack simulation is illegal and unethical.
+- Use these script only on systems you own or have explicit permission to test.
+- Unauthorized scanning is illegal and unethical.
 
 ## Summary
 
-These projects gave me hands-on experience with Python for both automating security checks and understanding attack techniques—skills that are vital in today’s cybersecurity landscape.
+These project gave me hands-on experience with Python for automating security checks and understanding attack techniques—skills that are vital in today’s cybersecurity landscape.
 
-I completed these projects solely for educational and learning purposes, undertaking them exclusively as part of my educational training.  
+I completed these project solely for educational and learning purposes, undertaking them exclusively as part of my educational training.  
 
 ## Created by 
 Korada Chaitanya  
